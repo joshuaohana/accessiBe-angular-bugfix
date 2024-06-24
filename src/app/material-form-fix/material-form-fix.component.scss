@@ -1,0 +1,23 @@
+.form-card {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.form-fields {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.form-fields > mat-form-field {
+  flex: 0 0 calc(50% - 10px);
+  margin-bottom: 20px;
+}
+
+input,
+mat-select,
+mat-form-field,
+textarea {
+  touch-action: none;
+}
